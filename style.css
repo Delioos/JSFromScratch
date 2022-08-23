@@ -1,0 +1,26 @@
+/* je veux changer la couleur du background */
+body {
+  background-image: url('jojo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#digital-clock {
+    font-family: "Helvetica neue", Monaco, monospace;
+    font-size: 40px;
+    color: rgb(243, 172, 243);
+    text-align: center;
+    text-rendering: optimizeSpeed;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+    
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
